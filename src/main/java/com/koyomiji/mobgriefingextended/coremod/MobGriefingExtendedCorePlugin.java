@@ -14,7 +14,7 @@ public class MobGriefingExtendedCorePlugin implements IFMLLoadingPlugin {
     public static File mcLocation;
     public static ArrayList<String> coremodList;
     public static Boolean runtimeDeobfuscationEnabled;
-    public static Logger logger = LogManager.getLogger("NoItemDecay");
+    public static Logger logger = LogManager.getLogger("MobGriefingExtended");
 
     @Override
     public String[] getASMTransformerClass() {
