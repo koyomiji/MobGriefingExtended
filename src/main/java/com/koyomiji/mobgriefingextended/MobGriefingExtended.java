@@ -12,8 +12,8 @@ import java.util.Objects;
 
 @Mod(modid = MobGriefingExtended.MODID, version = MobGriefingExtended.VERSION)
 public class MobGriefingExtended {
-    public static final String MODID = "mobgriefingextended";
-    public static final String VERSION = "0.1.0";
+    public static final String MODID = Tags.MODID;
+    public static final String VERSION = Tags.VERSION;
 
     @Mod.Instance
     private static MobGriefingExtended instance;

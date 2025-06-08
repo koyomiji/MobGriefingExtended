@@ -1,13 +1,20 @@
 plugins {
     id 'com.gtnewhorizons.retrofuturagradle' version '1.4.0'
+    id 'com.palantir.git-version' version '3.3.0'
 }
 
-version = "0.1.0"
+version = gitVersion()
 group= "com.koyomiji.mobgriefingextended" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "mobgriefingextended"
 
 minecraft {
     mcVersion = "1.7.10"
+    injectedTags.put("MODID", archivesBaseName)
+    injectedTags.put("VERSION", project.version)
+}
+
+tasks.injectTags.configure {
+    outputClassName.set("${project.group}.Tags")
 }
 
 sourceSets {
