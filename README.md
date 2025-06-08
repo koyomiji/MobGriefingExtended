@@ -1,4 +1,4 @@
-# MoGriefingExtended for Forge 1.7.10
+# MobGriefingExtended for Forge 1.7.10
 
 Provides finer control over mobGriefing rules.
 
