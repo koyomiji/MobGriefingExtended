@@ -1,0 +1,16 @@
+[
+{
+  "modid": "mobgriefingextended",
+  "name": "MobGriefingExtended",
+  "description": "Provides finer control over mobGriefing rules",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/koyomiji/MoGriefingExtended",
+  "updateUrl": "",
+  "authorList": ["k0michi"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
