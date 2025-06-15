@@ -5,7 +5,7 @@
   "description": "Provides finer control over mobGriefing rules",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "https://github.com/koyomiji/MoGriefingExtended",
+  "url": "https://github.com/koyomiji/MobGriefingExtended",
   "updateUrl": "",
   "authorList": ["k0michi"],
   "credits": "",
