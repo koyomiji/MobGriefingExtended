@@ -15,6 +15,7 @@ java {
 
 minecraft {
     mcVersion = "1.7.10"
+    username = System.getProperty("user.name")
     injectedTags.put("MODID", archivesBaseName)
     injectedTags.put("VERSION", project.version)
 }
